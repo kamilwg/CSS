@@ -1,0 +1,33 @@
+body {
+    background-color:black;
+}
+
+.count {
+    text-align: center;
+	padding:    0 8px;
+	color : white;
+	margin:     15px;
+	width:      600px;
+	font-size:  700%;
+    position: relative
+  
+}
+
+.num {
+    position:absolute;
+   left:50%;
+   top:50%;
+   animation-duration: 1s;
+}
+
+
+@keyframes count {
+ 0%, 100% {
+    opacity: 0;
+ }
+ 50% {
+    opacity: 1;
+ }
+}
+
+

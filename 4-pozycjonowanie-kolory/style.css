@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border: 2px solid white;
+}
+
+.countainer {
+display: flex;
+flex-wrap:wrap;
+height: 458px;
+width: 458px;
+}
+
+
+.circle {
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+
+}
+
+/* .red {
+    background-color: red;
+}
+
+
+
+
+
+.blue {
+    background-color: blue;
+}
+
+
+
+
+
+.green {
+    background-color: green;
+}
+
+
+
+
+.yellow {
+    background-color: yellow;
+}
+
+
+
+
+.black  {
+    background-color: black;
+}
+
+
+
+
+.orange {
+    background-color: orange;
+}
+
+
+
+
+ */
