@@ -7,6 +7,7 @@
     width: 150px;
     background-color: blue;
     border: 2px solid white;
+    position: relative;
 }
 
 .countainer {
@@ -22,15 +23,15 @@ width: 458px;
     height: 80px;
     width: 80px;
     border-radius: 50%;
-
+    position:absolute;
+    left: 35px;
+    top: 35px;
+    border :2px solid black;
 }
 
-/* .red {
+.red {
     background-color: red;
-}
-
-
-
+} 
 
 
 .blue {
@@ -39,13 +40,9 @@ width: 458px;
 
 
 
-
-
 .green {
     background-color: green;
 }
-
-
 
 
 .yellow {
@@ -60,13 +57,18 @@ width: 458px;
 }
 
 
-
-
 .orange {
     background-color: orange;
 }
 
+.pink {
+    background-color: pink;
+}
 
-
-
- */
+.gray {
+    background-color: gray;
+}
+ 
+.purple {
+    background-color: purple;
+}
